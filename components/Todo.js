@@ -39,7 +39,7 @@ class Todo {
         day: "numeric",
       })}`;
     } else {
-      this._todoDate.textContent = "No due date";
+      this._todoDate.textContent = "";
     }
 
     this._generateCheckboxEl();
