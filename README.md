@@ -20,4 +20,4 @@ Responsive Design: The app is designed to be mobile-friendly and works across a 
 
 This project is deployed on GitHub Pages:
 
-- [Deployment URL](https://jmathew330.github.io/se_project_todo-app/)
+[Deployment URL](https://jmathew330.github.io/se_project_todo-app/)
