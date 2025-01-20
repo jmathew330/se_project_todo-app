@@ -13,14 +13,11 @@ class Popup {
   open() {
     this._popupElement.classList.add("popup_visible");
     document.addEventListener("keydown", this._handleEscapeClose);
-    this.setEventListeners();
   }
-
   close() {
     this._popupElement.classList.remove("popup_visible");
     document.removeEventListener("keydown", this._handleEscapeClose);
   }
-
   setEventListeners() {
     this._popupElement.addEventListener("mousedown", (evt) => {
       if (
@@ -32,5 +29,4 @@ class Popup {
     });
   }
 }
-
 export default Popup;
