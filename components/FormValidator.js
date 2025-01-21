@@ -84,7 +84,6 @@ class FormValidator {
       this._submitButtonSelector
     );
     this._toggleButtonState(this._inputList);
-    buttonElement.disabled = true;
   }
 }
 

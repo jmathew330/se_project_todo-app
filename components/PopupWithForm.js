@@ -24,10 +24,6 @@ class PopupWithForm extends Popup {
       this._handleFormSubmit(inputValues);
     });
   }
-
-  close() {
-    super.close();
-  }
 }
 
 export default PopupWithForm;
